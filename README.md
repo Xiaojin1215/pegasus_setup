@@ -29,6 +29,8 @@ and : https://github.com/InsightDataScience/data-engineering-ecosystem/wiki/hado
     If there is still some error like "permission denied!", that's because the key file!
     Log in to some machines, repeat the "Generate an authorization key for the namenode" and copy the id_rsa.pub to other nodes' authorized keys. After that, try "peg install <cluster name> ssh" again. 
 16. Install Hadoop and Spark. 
+  When you installed hadoop, and spark. If you see "Hadoop is missing.. Hadoop is installing...", this is normal! Because it is checking if you installed Hadoop in your machine before.
+  If there is other errors, trying install it one more time. It the error keeps appear, you need to check the verion of your hadoop or spark is exist anymore. 
   
 In my case: 
 Spark Cluster WebUI is running at:
